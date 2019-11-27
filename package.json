@@ -1,0 +1,18 @@
+{
+  "name": "property-based-testing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -r esm --watch --slow 0 ./**/*.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "jsverify": "^0.8.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "license": "MIT"
+}
